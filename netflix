@@ -1,0 +1,20 @@
+import java.util.ArrayDeque;
+import java.util.Queue;
+
+
+public class QueueTest {
+
+    public static void main(String args[]){
+
+        Queue myQ = new ArrayDeque();
+
+        myQ.add("movie one");
+        myQ.add("movie two");
+        myQ.add("movie three");
+
+        while(myQ.peek() != null){
+            //Movies will be printed in the order they were inserted
+            System.out.println(myQ.remove());
+        }
+    }
+}
