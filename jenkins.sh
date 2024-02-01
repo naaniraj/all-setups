@@ -1,3 +1,5 @@
+sudo yum update -y
+
 #STEP-1: INSTALLING GIT JAVA-1.8.0 MAVEN 
 yum install git java-1.8.0-openjdk maven -y
 
@@ -13,6 +15,8 @@ update-alternatives --config java
 #STEP-4: RESTARTING JENKINS (when we download service it will on stopped state)
 systemctl start jenkins.service
 systemctl status jenkins.service
+
+sh jenkis.sh  (to exicute file)
 
 JENKINS INSTALL IN UBANTU
 ***************************
