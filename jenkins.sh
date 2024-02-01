@@ -13,3 +13,9 @@ update-alternatives --config java
 #STEP-4: RESTARTING JENKINS (when we download service it will on stopped state)
 systemctl start jenkins.service
 systemctl status jenkins.service
+
+JENKINS INSTALL IN UBANTU
+***************************
+apt install openjdk-8-jdk
+apt install maven
+apt install java1.8.0-openjdk
