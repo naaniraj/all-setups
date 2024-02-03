@@ -23,3 +23,12 @@ JENKINS INSTALL IN UBANTU
 apt install openjdk-8-jdk
 apt install maven
 apt install java1.8.0-openjdk
+sudo apt-get update
+   23  systemctl jenkins status
+   24  sudo apt-get install jenkins
+   25  jenkins --version
+   26  java --version
+   27  sudo mvn version
+   28  sudo apt install maven
+   29  mvn --version
+   30  git --version
